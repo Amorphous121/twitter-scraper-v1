@@ -1,0 +1,27 @@
+{
+  "name": "twitter-scrapper-v1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "bluebird": "^3.7.2",
+    "bull": "^3.29.1",
+    "bull-arena": "^3.29.2",
+    "chalk": "^4.1.2",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^6.0.4",
+    "morgan": "~1.9.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
